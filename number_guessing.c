@@ -10,7 +10,7 @@ int main() {
     int guess;
     int attempts=0;
     
-    printf("Guess the secret number between 1 and 10 \n");
+    printf("Guess the number between 1 and 10 \n");
     while(1){ 
 		printf("\n Enter your guess: ");
 		scanf("%d",&guess);
@@ -29,5 +29,6 @@ int main() {
 		}
 	}
 return 0;
+
 
 }
